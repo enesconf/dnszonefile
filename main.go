@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/miekg/dns"
 	"os"
+
+	"github.com/miekg/dns"
 )
 
 var dnsTypes = []uint16{
@@ -17,12 +18,51 @@ var dnsTypes = []uint16{
 	dns.TypeTXT,
 }
 
-// List of common subdomains to query
 var subdomains = []string{
 	"www",
+	"api",
+	"jenkins",
+	"app",
+	"blog",
 	"mail",
 	"ftp",
-	// add more if needed
+	"dev",
+	"test",
+	"staging",
+	"secure",
+	"docs",
+	"support",
+	"shop",
+	"store",
+	"forum",
+	"help",
+	"portal",
+	"webmail",
+	"m ",
+	"news",
+	"status",
+	"admin",
+	"static",
+	"assets",
+	"beta",
+	"cdn",
+	"cloud",
+	"login",
+	"web",
+	"members",
+	"download",
+	"search",
+	"service",
+	"resources",
+	"services",
+	"home",
+	"dashboard",
+	"media",
+	"community",
+	"upload",
+	"images",
+	"files",
+	"site",
 }
 
 func main() {
@@ -78,4 +118,3 @@ func dnsQuery(domain string, dnsType uint16) (*dns.Msg, error) {
 
 	return r, nil
 }
-

@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="[https://github.com/enesconf/dnszonefile/image/logo.png](https://github.com/enesconf/dnszonefile/blob/main/image/logo.png)">
+  <img width="460" height="300" src="https://github.com/enesconf/dnszonefile/blob/main/image/logo.png">
 </p>
 
 # **DNS Zone File Creator** 🌐

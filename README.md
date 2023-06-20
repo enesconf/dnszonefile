@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="460" height="300" src="https://github.com/enesconf/dnszonefile/image/logo.png">
+</p>
+
 # **DNS Zone File Creator** 🌐
 
 _DNS Zone File Creator_ is an application written in Go that queries DNS records for a given domain and writes the results to a DNS zone file. This project aims to simplify the process of getting DNS records and converting them into a well-structured zone file.
